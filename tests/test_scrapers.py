@@ -1,11 +1,3 @@
-"""
-Unit-тести HtmlScraper / JsonScraper з моками + live-integration.
-
-Патч-шляхи:
-  • HtmlScraper  → core.html_scraper.Session.get
-  • JsonScraper  → core.json_scraper.get          (імпортовано як 'get')
-"""
-
 from unittest.mock import Mock
 import json
 import pytest
